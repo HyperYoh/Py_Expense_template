@@ -27,7 +27,7 @@ A `tests` folder has been created along with a test example. Look at noted docum
 - [X] Users are stored in an external file for persistency
 - [X] When adding a new expense, Spender should be chosen among existing users
 - [ ] An expense can be divided between several existing users. By default, total amount of the expense will be evenly split between all involved users and spender should automatically be checked as involved in the expense
-- [ ] New mandatory expense information : People involved in the expense
+- [X] New mandatory expense information : People involved in the expense
 - [ ] A status report can be accessed from the main menu, synthesizing who owes who. Every user must appear only once in the report, so you must synthesize reimbursements. 
 Exemple: 3 Users :
 - User1 owes 34,56€ to User2
