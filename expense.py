@@ -10,7 +10,7 @@ expense_questions = [
         "type":"input",
         "name":"amount",
         "message":"New Expense - Amount: ",
-        #"validate": lambda  _, x: re.fullmatch("^\d+$", x)
+       "validate": lambda  x:  True if re.fullmatch("^[0-9]+$", x) else False,
     },
     {
         "type":"input",
