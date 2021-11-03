@@ -1,6 +1,8 @@
 from PyInquirer import prompt
 import csv
 import copy
+import re
+
 
 
 expense_questions = [
@@ -8,6 +10,7 @@ expense_questions = [
         "type":"input",
         "name":"amount",
         "message":"New Expense - Amount: ",
+        #"validate": lambda  _, x: re.fullmatch("^\d+$", x)
     },
     {
         "type":"input",
